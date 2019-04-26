@@ -26,8 +26,7 @@
             <i class="fa fa-hourglass-o"></i>{{t.timestamp | timeDuration }} ago</span>
           </div>
           <div class="todo-tasklist-controls col-sm-7">
-            <div class="todo-tasklist-item-text"><a href="/addr/{{t.miner}}">{{t.extraData}}</a><br>
-              by <a href="/addr/{{t.miner}}">{{t.miner}}</a><br>
+            <div class="todo-tasklist-item-text">Signed by <a href="/addr/{{t.miner}}">{{t.minerName?t.minerName:t.miner}}</a><br>
               {{t.txn}} txns
             </div>
           </div>
