@@ -46,7 +46,7 @@ var getDifficulty = function(hashes) {
     unit = 'Z';
   }
   
-  return result.toFixed(2) + ' ' + unit + 'H';
+  return parseFloat(result).toFixed(2) + ' ' + unit + 'H';
 }
 
 /*
