@@ -212,6 +212,8 @@ exports.data = async (req, res) => {
             console.error(`BlockWeb3 error :${err}`);
             res.write(JSON.stringify({ 'error': true }));
           } else {
+            block.miner = getSigner(block);
+            block.minerName = config.settings.signers[block.miner];
             res.write(JSON.stringify(filterBlocks(block)));
           }
           res.end();
