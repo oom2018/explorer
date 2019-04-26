@@ -68,10 +68,10 @@ var getMinerStats = function (req, res) {
           console.error(err);
           res.status(500).send();
         } else {
-          if (config.settings.miners) {
+          if (config.settings.signers) {
             result.forEach((m) => {
-              if (config.settings.miners[m._id]) {
-                m._id = config.settings.miners[m._id];
+              if (config.settings.signers[m._id]) {
+                m._id = config.settings.signers[m._id];
               }
             });
           }
