@@ -6,6 +6,7 @@ Please read the README in the root directory that explains the parameters of thi
 */
 require('../db.js');
 const BigNumber = require('bignumber.js');
+var getSigner = require("../lib/blockMiner.js");
 const _ = require('lodash');
 
 const asyncL = require('async');
@@ -100,6 +101,7 @@ var writeBlockToDB = function (config, blockData, flush) {
     self.bulkOps = [];
   }
   if (blockData && blockData.number >= 0) {
+    blockData.miner = getSigner(blockData);
     self.bulkOps.push(new Block(blockData));
     if (!('quiet' in config && config.quiet === true)) {
       console.log(`\t- block #${blockData.number.toString()} inserted.`);

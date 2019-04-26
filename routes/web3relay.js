@@ -10,6 +10,7 @@ let web3;
 
 const _ = require('lodash');
 const BigNumber = require('bignumber.js');
+var getSigner = require(__lib + "blockMiner.js");
 
 const etherUnits = require(`${__lib}etherUnits.js`);
 
