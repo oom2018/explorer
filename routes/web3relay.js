@@ -215,6 +215,7 @@ exports.data = async (req, res) => {
           } else {
             block.miner = getSigner(block);
             block.minerName = config.settings.signers[block.miner];
+            console.log(block.minerName)
             res.write(JSON.stringify(filterBlocks(block)));
           }
           res.end();
