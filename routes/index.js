@@ -5,6 +5,7 @@ const Transaction = mongoose.model('Transaction');
 const Account = mongoose.model('Account');
 const async = require('async');
 const filters = require('./filters');
+var config = JSON.parse(fs.readFileSync('config.json'));
 
 module.exports = function (app) {
   const web3relay = require('./web3relay');
