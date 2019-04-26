@@ -210,13 +210,12 @@ const sendBlocks = function (lim, res) {
           results.forEach((txn) => {
             txns[txn._id] = txn.count;
           });
+          docs.shift();
+          docs.shift();
           docs.forEach(function(doc) {
             doc.txn = txns[doc.number] || 0;
             doc.minerName = config.settings.signers[doc.miner];
           });
-        //   docs.forEach((doc) => {
-        //     doc.txn = txns[doc.number] || 0;
-        //   });
         }
         res.write(JSON.stringify({ 'blocks': filters.filterBlocks(docs) }));
         res.end();
