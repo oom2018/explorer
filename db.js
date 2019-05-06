@@ -152,7 +152,7 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/explorerDB', {
     poolSize: 5,
  // # rs_name: 'myReplicaSetName',
     user: 'explorer',
-    pass: '111111'
+    pass: 'Xlife.toP201956125001'
 });
 
 mongoose.set('useCreateIndex', true);

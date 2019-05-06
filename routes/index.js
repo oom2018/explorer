@@ -214,7 +214,8 @@ const sendBlocks = function (lim, res) {
           docs.shift();
           docs.forEach(function(doc) {
             doc.txn = txns[doc.number] || 0;
-            doc.minerName = config.settings.signers[doc.miner];
+            // doc.minerName = config.settings.signers[doc.miner];
+            doc.minerName = doc.miner; //config.settings.signers[doc.miner];
           });
         }
         res.write(JSON.stringify({ 'blocks': filters.filterBlocks(docs) }));
