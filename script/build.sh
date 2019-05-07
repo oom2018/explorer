@@ -1,2 +1,5 @@
-killall node;  sleep 2; npm run dist ; (npm run start > out.log & )
+killall node;
+git pull --rebase;
+npm run dist ;
+(npm run start > out.log & )
 
