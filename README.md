@@ -2,7 +2,7 @@
 
 <img src="public/img/explorer-logo.png" alt="JZC Explorer logo" height="200" />
 
-<b>Live Version: [etherhub.io](http://etherhub.io)</b>
+<b>Live Version: [bc.xlife.top](http://bc.xlife.top)</b>
 
 Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumclassic/explorer)
 
