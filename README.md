@@ -1,6 +1,6 @@
-# ETC Explorer
+# JZC Explorer
 
-<img src="public/img/explorer-logo.png" alt="ETC Explorer logo" height="200" />
+<img src="public/img/explorer-logo.png" alt="JZC Explorer logo" height="200" />
 
 <b>Live Version: [etherhub.io](http://etherhub.io)</b>
 
