@@ -1,0 +1,39 @@
+{
+	"nodeAddr":     "localhost",
+		"wsPort":       8640,
+		"startBlock":   0,
+		"endBlock":     "latest",
+		"quiet":        true,
+		"syncAll":      true,
+		"patch":        true,
+		"patchBlocks":  100,
+		"bulkSize":     100,
+		"settings": {
+			"symbol": "JZC",
+			"name": "JZC",
+			"title": "JZC Block Explorer",
+			"contact": "mailto:jzc@xlife.top",
+			"about": "This is JZC Blockchain Explorer.",
+			"rss": "https://ethereumclassic.org",
+			"reddit": "https://www.reddit.com/r/EthereumClassic",
+			"twitter": "https://twitter.com/eth_classic",
+			"linkedin": "https://www.linkedin.com/company/ethereum-classic",
+			"github": "https://github.com/ethereumclassic",
+			"github-repo": "https://github.com/ethereumclassic/explorer",
+			"logo": "/img/explorer-logo.png",
+			"copyright": "2019 &copy; Ethereum Classic.",
+			"poweredbyCustom": false,
+			"poweredbyEtcImage": "/img/powered-by-etcexplorer-w.png",
+			"poweredbyEtc": true,
+			"tokenList": "tokens.json",
+			"useRichList": true,
+			"useFiat": true,
+			"miners": {
+				"0xaef84d1b3f7be10d5eebc4a577726dc318a400c9":"node1",
+				"0xe95a384eaa53371d12177dbe87473eeaec9910e8":"node2",
+				"0x3182c6cf7bbba1e8a4ff5728d4f060453e34b995":"signer1",
+				"0xbdbe28f439d23982334cd4ea23a4bd67e190a498":"signer2",
+				"0x365ace5780a35d8a2a358ae509ec9be5f287ccea":"signer3"         
+			}
+		}
+}
