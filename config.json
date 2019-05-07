@@ -21,7 +21,7 @@
 			"github": "https://github.com/ethereumclassic",
 			"github-repo": "https://github.com/ethereumclassic/explorer",
 			"logo": "/img/explorer-logo.png",
-			"copyright": "2019 &copy; Ethereum Classic.",
+			"copyright": "",
 			"poweredbyCustom": false,
 			"poweredbyEtcImage": "/img/powered-by-etcexplorer-w.png",
 			"poweredbyEtc": true,
