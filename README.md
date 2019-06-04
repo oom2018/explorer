@@ -18,7 +18,6 @@ Follow the project progress at: [ETC Block Explorer Development](https://github.
   ```
       ./script/
       ├── build.sh
-      ├── out.log
       ├── resetdb.sh
       ├── startdb.sh
       └── tail-log.sh
