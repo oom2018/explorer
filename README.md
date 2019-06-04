@@ -14,6 +14,13 @@ Follow the project progress at: [ETC Block Explorer Development](https://github.
 | [MongoDB 4.x](https://www.mongodb.com) | `brew install mongodb` | [MongoDB Install Example](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) |
 
 ## Build and Run
+  0. 相关脚本
+      ./script/
+      ├── build.sh
+      ├── out.log
+      ├── resetdb.sh
+      ├── startdb.sh
+      └── tail-log.sh
 
   1. Clone the repository.
   `git clone https://github.com/ethereumclassic/explorer`
