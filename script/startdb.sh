@@ -1,0 +1,4 @@
+
+sudo service mongod start
+
+
