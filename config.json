@@ -1,5 +1,5 @@
 {
-	"nodeAddr":     "localhost",
+	"nodeAddr":     "bc.xlife.top",
 		"wsPort":       8640,
 		"startBlock":   0,
 		"endBlock":     "latest",
