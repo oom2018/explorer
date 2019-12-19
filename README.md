@@ -1,6 +1,6 @@
 # JZC Explorer
 
-<img src="public/img/explorer-logo.png" alt="JZC Explorer logo" height="200" />
+<!-- <img src="public/img/explorer-logo.png" alt="JZC Explorer logo" height="200" /> -->
 
 <b>Live Version: [bc.xlife.top](http://bc.xlife.top)</b>
 
