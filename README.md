@@ -1,8 +1,8 @@
 # JZC Explorer
 
-<img src="public/img/explorer-logo.png" alt="JZC Explorer logo" height="200" />
+<img src1="public/img/explorer-logo.png" alt="JZC Explorer logo" height="200" />
 
-<b>Live Version: [bc.xlife.top](http://bc.xlife.top)</b>
+<b>Live Version: [bc.xlife.top](http://58.222.34.160:8000/home)</b>
 
 Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumclassic/explorer)
 
