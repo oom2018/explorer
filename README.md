@@ -14,10 +14,10 @@ Follow the project progress at: [ETC Block Explorer Development](https://github.
 | [MongoDB 4.x](https://www.mongodb.com) | `brew install mongodb` | [MongoDB Install Example](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) |
 
 ## Run
-1.检查数据库是否启动： cd ./script; bash statusdb.sh;
+1. 检查数据库是否启动： cd ./script; bash statusdb.sh;
   启动数据库： bash startdb.sh;
-2.检查区块链：ps aux |grep geth
-3.检查explorer：ps aux | grep node
+2. 检查区块链：ps aux |grep geth
+3. 检查explorer：ps aux | grep node
   重启node：killall node ; bash run.sh 
   
 ## Build
